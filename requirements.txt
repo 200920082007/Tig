@@ -29,4 +29,5 @@ yt_dlp
 tswift
 PyPDF2
 pypdf2
+ytthumb
 
