@@ -11,6 +11,8 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 ALIVE = "വെറുതെ Alive അടിച്ചു വെറുപ്പിക്കാതട ഞൻ ഇവട ജീവനോടെ ഒക്കെ തന്നെ ണ്ട് MANH ചത്തൊന്നും പോയിട്ടില്ല🥲\n\n ⍟𝐌𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫: @lallu_tg\n\n⍟𝐌𝐲 𝐬𝐮𝐩𝐩𝐨𝐫𝐭: @Annaben_support\n\n⍟𝐌𝐲 𝐮𝐩𝐝𝐚𝐭𝐞𝐬: @team_annaben\n\n⍟𝐌𝐲 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐫: @PANDITHAN_SIR"
 HELP = "ദൈവമേ എന്നെ മാത്രം രക്ഷിക്കണേ...."
 REPO = "നമ്മൾ നമ്മൾ പോലുമറിയാതെ അധോലോകം ആയി മാറിക്കഴിഞ്ഞിരിക്കുന്നു ഷാജിയേട്ടാ..."
+DON = "HEY DON JUST A TEST MESSAGE if this message comed send worked to @abhisheksvlog"
+LXR = "HEY amal just a test MESSAGE If this message comed send worked to @abhisheksvlog"
 # -- Constants End -- #
 
 
@@ -36,3 +38,13 @@ async def ping(_, message):
 @Client.on_message(filters.command("repo", COMMAND_HAND_LER) & f_onw_fliter)
 async def repo(_, message):
     await message.reply_text(REPO)
+
+
+@Client.on_message(filters.command("don", COMMAND_HAND_LER) & f_onw_fliter)
+async def test_don(_, message):
+    await message.reply_text(DON)
+
+
+@Client.on_message(filters.command("lxr", COMMAND_HAND_LER) & f_onw_fliter)
+async def test_lxr(_, message):
+    await message.reply_text(LXR)
