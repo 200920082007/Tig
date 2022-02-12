@@ -452,8 +452,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑟𝑒𝑠𝑡𝑟𝑖𝑐𝑡𝑖𝑜𝑛𝑠', callback_data='restric'),
             InlineKeyboardButton('search', callback_data='search'),
             ],[
-            InlineKeyboardButton('𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉', callback_data='tgraph')
-            InlineKeyboardButton('𝐰𝐡𝐨𝐢𝐬', callback_data='whois'),
+            InlineKeyboardButton('𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉', callback_data='tgraph'),
+            InlineKeyboardButton('whois', callback_data='whois'),
             InlineKeyboardButton('𝐟𝐮𝐧', callback_data='fun'),
             ],[
             InlineKeyboardButton('𝐚𝐥𝐢𝐯𝐞', callback_data='alive'),
