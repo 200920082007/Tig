@@ -453,7 +453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('search', callback_data='search'),
             ],[
             InlineKeyboardButton('𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉', callback_data='tgraph')
-            InlineKeyboardButton('𝐰𝐡𝐨𝐢𝐬 ', callback_data='whois'),
+            InlineKeyboardButton('𝐰𝐡𝐨𝐢𝐬', callback_data='whois'),
             InlineKeyboardButton('𝐟𝐮𝐧', callback_data='fun'),
             ],[
             InlineKeyboardButton('𝐚𝐥𝐢𝐯𝐞', callback_data='alive'),
