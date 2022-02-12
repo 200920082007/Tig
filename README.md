@@ -1,11 +1,11 @@
-# ANNA_BEN_BOT
+# 𝐓𝐈𝐆𝐄𝐑 𝐒𝐇𝐑𝐎𝐅𝐅
 Very Sempil Bot Auto Filter bot
 ##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Tiger-Shroff!;created+by+CRAZY+BOSS!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
 </p>
 # 𝐂𝐋𝐈𝐂𝐊 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘👇👇👇
 
 
-[![Deploy](https://telegra.ph/file/d35d46c4b9f7bfc79564e.jpg)](https://heroku.com/deploy?template=https://github.com/Lallu-lallus/anna-ben-repo)
+[![Deploy](https://telegra.ph/file/595e6b626b2fee08397d6.jpg)](https://heroku.com/deploy?template=https://github.com/Lallu-lallus/anna-ben-repo)
 
 - [x] Auto Filter
 - [x] Manuel Filter
@@ -24,8 +24,8 @@ Very Sempil Bot Auto Filter bot
 
 <h3 align="center">ℂ𝕆ℕ𝕋𝔸ℂ𝕋<img align="center" src="https://github.com/PANDITHAN/PANDITHAN/blob/main/assets/Handshake.gif" height="33px" /></h3>
 <p align="center">
-<a href="https://t.me/pro_editor_tg"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-<a href="https://t.me/PANDITHAN_SIR"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/Abhisheksvlog"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/zinan00100"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 
 
