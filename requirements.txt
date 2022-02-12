@@ -27,4 +27,6 @@ youtube-search-python==1.4.6
 pyromod
 yt_dlp
 tswift
+PyPDF2
+pypdf2
 
