@@ -467,6 +467,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝐴𝑢𝑑𝑖𝑜-𝐵𝑜𝑜𝑘', callback_data='abook'),
             InlineKeyboardButton('𝑅𝑒𝑝𝑜𝑟𝑡', callback_data='report'),
+            InlineKeyboardButton('YT-Thumb', callback_data='ytthumb'),
             ],[
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
@@ -510,6 +511,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
 
 parse_mode='html'
+        )
+    elif query.data == "ytthumb":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.YTTHUMB_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     elif query.data == "report":
         buttons = [[
