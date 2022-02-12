@@ -465,6 +465,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑐𝑜𝑟𝑜𝑛𝑎', callback_data='corona'),
             InlineKeyboardButton('𝑠𝑡𝑖𝑐𝑘𝑒𝑟 𝑖𝑑', callback_data='stickerid')
             ],[
+            InlineKeyboardButton('𝐴𝑢𝑑𝑖𝑜-𝐵𝑜𝑜𝑘', callback_data='abook'),
+            InlineKeyboardButton('𝑅𝑒𝑝𝑜𝑟𝑡', callback_data='report'),
+            ],[
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -507,6 +510,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
 
 parse_mode='html'
+        )
+    elif query.data == "report":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.REPORT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "abook":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ABOOK_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     elif query.data == "whois":
         buttons = [[
