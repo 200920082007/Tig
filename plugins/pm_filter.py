@@ -469,6 +469,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑅𝑒𝑝𝑜𝑟𝑡', callback_data='report'),
             InlineKeyboardButton('YT-Thumb', callback_data='ytthumb'),
             ],[
+            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata')
+            ],[
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
